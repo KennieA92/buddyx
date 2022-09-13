@@ -18,7 +18,7 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
     display: none;
 }*/
 
-#page .container {
+/* #page .container {
     width: 100%;
     max-width: 100%;
     margin: 0;
@@ -38,7 +38,7 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
 
 #primary {
     width: 75%;
-}
+} */
 
 .entry-content {
     background: white;
@@ -46,9 +46,8 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
     padding: 2em 0;
 }
 
-#secondary {
-    width: 25%;
-
+#page {
+    padding: 40px;
 }
 
 
@@ -58,6 +57,9 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
     padding: 0;
 }
 
+.site-wrapper {
+    margin: 0 !important;
+}
 
 .site-sub-header .container {
     flex-direction: column;
@@ -108,4 +110,39 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
     border-radius: 4px !important;
     background-color: #F05130 !important;
     border: 1px solid #54595f !important;
+}
+
+.item-header-cover-image-wrapper {
+
+    background: linear-gradient(180deg, #28364A 33%, #1E2939 100%);
+    color: white;
+}
+
+#item-header-content .user-nicename {
+    color: white !important;
+}
+
+#item-header-content .bp-group-title {
+    color: white !important;
+}
+
+.site-header {
+    justify-content: center;
+}
+
+.site-branding-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bp-feedback .bp-icon {
+
+    background-color: #F05130 !important;
+
+}
+
+footer {
+    display: none;
 }
