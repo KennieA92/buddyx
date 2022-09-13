@@ -1,0 +1,111 @@
+/*
+Theme Name: BuddyX Child
+Theme URI: https://wbcomdesigns.com/downloads/buddyx-theme/
+Template: buddyx
+Author: wbcomdesigns,vapvarun
+Author URI: https://github.com/vapvarun/buddyx
+Description: BuddyX is an ideal theme for community and membership websites. Providing a solution to all kinds of communities. Thanks to it's BuddyPress support, your website can now have member profiles, send a private message, create groups and so much more. It is a lightweight, fully responsive, seo optimised, RTL &amp; translation ready theme. BuddyX provides support for WooCommerce, WC Vendors, LearnDash, LearnPress and Gamipress plugins. It is highly customizable and works perfectly with page builders such as Elementor and Gutenberg. BuddyX is perfect for creating social learning, marketplace and blogging websites using BuddyPress integration. BuddyX is built using the latest best practices for progressive web content and optimization. It is well tested with the latest BuddyPress version and popular BuddyPress addons. It is developed, maintained, and supported by Wbcom Designs.
+Tags: one-column,two-columns,left-sidebar,right-sidebar,footer-widgets,blog,translation-ready,buddypress,custom-colors,featured-images,full-width-template,theme-options,e-commerce
+Version: 4.4.1.1662994940
+Updated: 2022-09-12 15:02:20
+
+*/
+
+
+/* 
+Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
+#wpadminbar {
+    display: none;
+}*/
+
+#page .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header-wrapper {
+    display: none;
+}
+
+#page .container .site-wrapper {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    grid-gap: 0;
+}
+
+#primary {
+    width: 75%;
+}
+
+.entry-content {
+    background: white;
+    border: 1px solid #bfbfbf;
+    padding: 2em 0;
+}
+
+#secondary {
+    width: 25%;
+
+}
+
+
+/* Register form */
+
+.site-sub-header {
+    padding: 0;
+}
+
+
+.site-sub-header .container {
+    flex-direction: column;
+    padding: 2em 0 !important;
+    background: linear-gradient(180deg, #28364A 33%, #1E2939 100%);
+    color: #F2F0EA;
+}
+
+.site-sub-header .container .entry-header-title {
+    margin: 0;
+}
+
+.site-sub-header .container .entry-header-title .entry-title {
+    color: #F2F0EA;
+}
+
+.trail-item .trail-begin a {
+    color: #F05130 !important;
+}
+
+#buddypress.buddypress-wrap a.rtm-button-back,
+#buddypress.buddypress-wrap input[type=button],
+#buddypress.buddypress-wrap input[type=submit] {
+
+    font-family: "Patrick Hand", cursive;
+    font-weight: 500;
+    border-radius: 4px !important;
+    background-color: #F05130 !important;
+    border: 1px solid #54595f !important;
+}
+
+#buddypress.buddypress-wrap a.rtm-button-back,
+#buddypress.buddypress-wrap input[type=email],
+#buddypress.buddypress-wrap input {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 500;
+    border-radius: 0 !important;
+}
+
+.widget-title {
+    display: none;
+}
+
+#buddypress .standard-form button,
+.buddypress .buddypress-wrap button.button {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 500;
+    border-radius: 4px !important;
+    background-color: #F05130 !important;
+    border: 1px solid #54595f !important;
+}
