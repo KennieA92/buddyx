@@ -35,9 +35,10 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
     justify-content: center;
     grid-gap: 0;
 }
-*/
+
 #primary {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -45,9 +46,10 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
     background: white;
     border: 1px solid #bfbfbf;
     padding: 2em 0;
-    width: 50vw !important;
+    min-width: 50vw !important;
 }
 
+*/
 #page {
     padding: 0 !important;
 }
@@ -103,6 +105,16 @@ a:focus {
 
 .count {
     background-color: #F05130 !important;
+}
+
+.item-header-cover-image-wrapper {
+    margin-top: 100px;
+    background: linear-gradient(180deg, #28364A 33%, #1E2939 100%);
+    color: white;
+}
+
+#cover-image-container {
+    display: none;
 }
 
 #bp-add-media {
@@ -189,3 +201,5 @@ a:focus {
 footer {
     display: none;
 }
+
+/* Test */
