@@ -47,6 +47,29 @@ function my_login_logo()
 <?php }
 add_action('login_enqueue_scripts', 'my_login_logo');
 
+function my_buddyx_sub_header()
+{ ?>
+    <div class="buddyx-sub-header-test">
+        <img class="banner-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/site-login-logo.png" alt="">
+    </div>
+    <style type="text/css">
+        .buddyx-sub-header-test {
+            background: linear-gradient(180deg, #28364A 33%, #1E2939 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 250px;
+            width: 100vw;
+        }
+
+        .banner-logo {
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+<?php }
+add_action('buddyx_header_before', 'my_buddyx_sub_header');
+
 //used to remove the admin bar at top.
 //add_theme_support('admin-bar', array('callback' => '__return_false'));
 

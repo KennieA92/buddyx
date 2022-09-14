@@ -35,19 +35,21 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
     justify-content: center;
     grid-gap: 0;
 }
-
+*/
 #primary {
-    width: 75%;
-} */
+    display: flex;
+    justify-content: center;
+}
 
 .entry-content {
     background: white;
     border: 1px solid #bfbfbf;
     padding: 2em 0;
+    width: 50vw !important;
 }
 
 #page {
-    padding: 40px;
+    padding: 0 !important;
 }
 
 
@@ -61,11 +63,17 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
     margin: 0 !important;
 }
 
+.site-header-wrapper {
+    display: none;
+}
+
 .site-sub-header .container {
     flex-direction: column;
     padding: 2em 0 !important;
+    margin: 0 !important;
     background: linear-gradient(180deg, #28364A 33%, #1E2939 100%);
     color: #F2F0EA;
+    max-width: none;
 }
 
 .site-sub-header .container .entry-header-title {
@@ -78,6 +86,41 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
 
 .trail-item .trail-begin a {
     color: #F05130 !important;
+}
+
+a:hover {
+    color: #F05130 !important;
+}
+
+a:focus {
+    color: #F05130 !important;
+}
+
+#nav-forum:focus {
+
+    color: #F05130 !important;
+}
+
+.count {
+    background-color: #F05130 !important;
+}
+
+#bp-add-media {
+
+    font-family: "Patrick Hand", cursive !important;
+    font-weight: 500 !important;
+    border-radius: 4px !important;
+    background-color: #F05130 !important;
+    border: 1px solid #54595f !important;
+}
+
+#bb-create-album {
+
+    font-family: "Patrick Hand", cursive !important;
+    font-weight: 500 !important;
+    border-radius: 4px !important;
+    background-color: #F05130 !important;
+    border: 1px solid #54595f !important;
 }
 
 #buddypress.buddypress-wrap a.rtm-button-back,

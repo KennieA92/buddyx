@@ -46,7 +46,11 @@ Updated: 2022-09-12 15:02:20
     border-radius: 4px !important;
     border: 1px solid #54595f !important;
     background-color: #F05130;
+}
 
+.popup-modal-login {
+    text-decoration: none;
+    color: #F05130;
 }
 
 .login #login #nav {
