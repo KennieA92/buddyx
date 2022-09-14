@@ -63,6 +63,26 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
 
 .site-wrapper {
     margin: 0 !important;
+
+}
+
+#member-admin {
+    display: block;
+}
+
+.members-directory-container {
+    background: white;
+    padding: 5px;
+}
+
+.buddypress-wrap {
+    padding: 5px;
+}
+
+#groups-dir-list {
+    padding: 5px;
+
+    background: white;
 }
 
 .site-header-wrapper {
@@ -201,5 +221,3 @@ a:focus {
 footer {
     display: none;
 }
-
-/* Test */
