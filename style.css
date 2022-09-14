@@ -55,15 +55,12 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
 }
 
 
-/* Register form */
-
 .site-sub-header {
     padding: 0;
 }
 
 .site-wrapper {
     margin: 0 !important;
-
 }
 
 #member-admin {
@@ -83,6 +80,11 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
     padding: 5px;
 
     background: white;
+}
+
+#buddypress {
+    background: white;
+    padding: 5px;
 }
 
 .site-header-wrapper {
@@ -128,7 +130,7 @@ a:focus {
 }
 
 .item-header-cover-image-wrapper {
-    margin-top: 100px;
+    margin-top: 50px;
     background: linear-gradient(180deg, #28364A 33%, #1E2939 100%);
     color: white;
 }
