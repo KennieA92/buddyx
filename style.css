@@ -54,6 +54,13 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
     padding: 0 !important;
 }
 
+#primary {
+    width: 100%;
+}
+
+#secondary {
+    width: 25%;
+}
 
 .site-sub-header {
     padding: 0;
@@ -61,6 +68,19 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
 
 .site-wrapper {
     margin: 0 !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row nowrap;
+}
+
+.group-home {
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
 }
 
 #member-admin {
