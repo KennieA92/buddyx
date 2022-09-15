@@ -50,6 +50,14 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
 }
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Patrick Hand', cursive;
+}
+
+
 #page {
     padding: 0 !important;
 }
@@ -103,8 +111,11 @@ Remove the Admin Bar at the top. (Remember the themesupport in functions.php)
 }
 
 #buddypress {
-    background: white;
     padding: 5px;
+}
+
+.bp-single-plain-nav {
+    background: white;
 }
 
 .site-header-wrapper {
@@ -242,4 +253,19 @@ a:focus {
 
 footer {
     display: none;
+}
+
+.news-image {
+    max-height: 30vw;
+    width: 100%;
+    object-fit: contain;
+}
+
+.entry-container {
+    background: white;
+    border-radius: 5px;
+}
+
+.entry-header {
+    padding-bottom: 10px;
 }
